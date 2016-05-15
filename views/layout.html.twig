@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% block title "Welcome on Test API site!" %}</title>
-    <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
+    <title>{% block title "Test RocketRoute API site" %}</title>
+    <meta name="viewport" content="initial-scale=1.0">
 	{% block stylesheets %}
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -13,17 +13,20 @@
 		<link href="css/style.css" rel="stylesheet" />
     {% endblock %}
   </head>
+  
   <body>
+	  
 	<div class="container">
 		{% block content "" %}
 	</div>	
+	
 	{% block javascripts %}
 		<script src="https://code.jquery.com/jquery-2.2.1.min.js" ></script>
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8nVfj--my0XI7Ow38JUkBC72_Hdspvlo&callback=initMap"
-		async defer></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8nVfj--my0XI7Ow38JUkBC72_Hdspvlo&callback=initMap" async defer></script>
+		<script src="js/main.js" ></script>
 	{% endblock %}
   </body>
 </html>
