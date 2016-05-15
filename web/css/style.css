@@ -1,0 +1,18 @@
+#map {
+	height: 500px;
+	width: 100%;
+	margin: 30px auto;
+}
+
+.search-notam{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin: 20px 0;
+	padding: 20px 0;
+}
+#get-notam-btn{
+	margin-left:10px;
+}
+.loading-ico{
+	margin: 0 15px 0 5px;
+}
